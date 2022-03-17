@@ -751,7 +751,7 @@
         "argparse": "argparse",
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-wpspin-master": "src-wpspin-master"
+        "src-wpspin-0_5_1": "src-wpspin-0_5_1"
       }
     },
     "src-argparse-master": {
@@ -1145,19 +1145,19 @@
         "type": "github"
       }
     },
-    "src-wpspin-master": {
+    "src-wpspin-0_5_1": {
       "flake": false,
       "locked": {
-        "lastModified": 1617197220,
-        "narHash": "sha256-OMLsr5MtWFtawxHs4dQS7/DD1L8w/6mLjGc4FWzmrAk=",
+        "lastModified": 1612797019,
+        "narHash": "sha256-xfJig6TOAN3RvDgvrzO7eNqEaHXZhvaIZG+Lru7/bTw=",
         "owner": "drygdryg",
         "repo": "wpspin-nim",
-        "rev": "cf7f800030d463d134a94092b2253688071e2db6",
+        "rev": "0f804b0d5c677ecfed3103a34bb95ebbaab5877e",
         "type": "github"
       },
       "original": {
         "owner": "drygdryg",
-        "ref": "refs/heads/master",
+        "ref": "refs/tags/0.5.1",
         "repo": "wpspin-nim",
         "type": "github"
       }
