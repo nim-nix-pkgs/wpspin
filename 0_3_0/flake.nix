@@ -9,13 +9,14 @@
   
   inputs.src-wpspin-0_3_0.flake = false;
   inputs.src-wpspin-0_3_0.owner = "drygdryg";
-  inputs.src-wpspin-0_3_0.ref   = "refs/tags/0.3.0";
+  inputs.src-wpspin-0_3_0.ref   = "0_3_0";
   inputs.src-wpspin-0_3_0.repo  = "wpspin-nim";
   inputs.src-wpspin-0_3_0.type  = "github";
   
   inputs."argparse".owner = "nim-nix-pkgs";
   inputs."argparse".ref   = "master";
   inputs."argparse".repo  = "argparse";
+  inputs."argparse".dir   = "v3_0_0";
   inputs."argparse".type  = "github";
   inputs."argparse".inputs.nixpkgs.follows = "nixpkgs";
   inputs."argparse".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
