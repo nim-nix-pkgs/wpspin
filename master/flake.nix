@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-wpspin-master.flake = false;
+  inputs.src-wpspin-master.ref   = "refs/heads/master";
   inputs.src-wpspin-master.owner = "drygdryg";
-  inputs.src-wpspin-master.ref   = "master";
   inputs.src-wpspin-master.repo  = "wpspin-nim";
   inputs.src-wpspin-master.type  = "github";
   
